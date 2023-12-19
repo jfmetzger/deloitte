@@ -3,8 +3,8 @@ project_id = "my-capstone-project-407419"
 project = "space-invaders"
 
 regions        = ["us-central1", "us-east1"]
-instance_count = 2
-startup_script = "install_space-invaders.sh"
+instance_count = 4
+startup_script = "scripts/install_space-invaders.sh"
 preemptible    = false
 machine_type   = "e2-micro"
 

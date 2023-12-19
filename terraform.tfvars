@@ -4,7 +4,7 @@ project = "space-invaders"
 
 regions        = ["us-central1", "us-east1"]
 instance_count = 1
-startup_script = "install_space-invaders.sh"
+startup_script = "scripts/install_space-invaders.sh"
 preemptible    = false
 machine_type   = "e2-micro"
 
