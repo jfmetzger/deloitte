@@ -1,8 +1,8 @@
 # Create the Network
 module "vpc" {
-  source = "./modules/vpc"
-  project = var.project
-  regions = var.regions
+  source       = "./modules/vpc"
+  project      = var.project
+  regions      = var.regions
   subnet_cidrs = var.subnet_cidrs
 }
 
